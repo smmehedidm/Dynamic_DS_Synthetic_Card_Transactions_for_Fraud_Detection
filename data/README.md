@@ -27,7 +27,7 @@ Dataset 02 is the ULB European Credit Card Fraud benchmark.
 The dataset should be downloaded from its original source.
 
 **Original source:**
-[Add the exact source/download link used by the project team here.](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?utm_source=gemini)
+[source dataset from the original provider.](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?utm_source=gemini)
 
 ## Dataset 03
 
@@ -36,7 +36,7 @@ Dataset 03 is the Sparkov synthetic credit card transaction dataset.
 The dataset should be downloaded from its original source.
 
 **Original source:**
-[Add the exact source/download link used by the project team here.](https://www.kaggle.com/datasets/kartik2112/fraud-detection/code)
+[source dataset from the original provider.](https://www.kaggle.com/datasets/kartik2112/fraud-detection/code)
 
 ## Local Data Setup
 
