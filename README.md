@@ -6,6 +6,14 @@ This project investigates how validation strategy and cyclic temporal features a
 
 The study compares random and chronological validation approaches across three datasets and evaluates Logistic Regression, Random Forest, and XGBoost. It also explores class imbalance handling, validation-based threshold selection, and model explainability using SHAP.
 
+---
+
+## 2. Research Question
+
+> How does chronological validation compared with random validation affect credit card fraud detection performance, and under what conditions do cyclic temporal features improve model performance?
+
+---
+
 ## Research Objectives
 
 * Compare random and chronological data splitting.
@@ -16,15 +24,49 @@ The study compares random and chronological validation approaches across three d
 
 ## Datasets
 
-The study uses three datasets:
+The study uses three datasets with different temporal characteristics.
 
-| Dataset    | Description                                                      |
-| ---------- | ---------------------------------------------------------------- |
-| Dataset 01 | Synthetic card transactions, approximately six months            |
-| Dataset 02 | ULB European credit card fraud benchmark, approximately 48 hours |
-| Dataset 03 | Sparkov synthetic transactions, approximately 18 months          |
+| Dataset    | Description                                | Approx. Observation Period |
+| ---------- | ------------------------------------------ | -------------------------: |
+| Dataset 01 | Synthetic credit card transactions         |                   6 months |
+| Dataset 02 | ULB European credit card fraud benchmark   |                   48 hours |
+| Dataset 03 | Sparkov synthetic credit card transactions |                  18 months |
 
-Raw datasets are not included in this repository. See [`data/README.md`](data/README.md) for download instructions.
+### Dataset 01
+
+The first dataset is a synthetic credit card transaction dataset containing approximately 500,000 transactions.
+
+After duplicate transaction IDs were removed, the dataset contains approximately **499,998 transactions**.
+
+The fraud rate is approximately **0.42%**.
+
+### Dataset 02
+
+Dataset 02 is the ULB European credit card fraud benchmark.
+
+It contains anonymized PCA-based transaction features together with transaction time and amount.
+
+The dataset covers approximately **48 hours** and contains a very small proportion of fraudulent transactions.
+
+### Dataset 03
+
+Dataset 03 is the Sparkov synthetic credit card transaction dataset.
+
+It covers approximately **18 months** and contains approximately **1.3 million transactions**.
+
+The longer observation period provides an opportunity to investigate temporal distribution changes over time.
+
+### Data Availability
+
+Raw datasets are **not stored in this public repository**.
+
+See:
+
+**[`data/README.md`](data/README.md)**
+
+for information about the original dataset sources and download instructions.
+
+---
 
 ## Methodology
 
