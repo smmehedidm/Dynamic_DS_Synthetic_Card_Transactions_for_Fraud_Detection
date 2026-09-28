@@ -133,8 +133,8 @@ The study uses metrics including:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/smmehedidm/Dynamic_DS_Synthetic_Card_Transactions_for_Fraud_Detection.git
-cd Dynamic_DS_Synthetic_Card_Transactions_for_Fraud_Detection
+git clone https://github.com/smmehedidm/Temporal_Credit_Card_Fraud_Detection.git
+cd Temporal_Credit_Card_Fraud_Detection
 ```
 
 ### 2. Create a virtual environment
@@ -165,7 +165,7 @@ pip install -r requirements.txt
 
 ### 4. Download the datasets
 
-Follow the instructions in [`data/README.md`](data/README.md). Place the downloaded files in the expected local locations and update notebook paths if necessary.
+Follow the instructions in [`data/README.md`](https://github.com/smmehedidm/Temporal_Credit_Card_Fraud_Detection/tree/main/data). Place the downloaded files in the expected local locations and update notebook paths if necessary.
 
 ### 5. Run the notebook
 
