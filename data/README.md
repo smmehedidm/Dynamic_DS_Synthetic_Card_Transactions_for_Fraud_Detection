@@ -12,7 +12,7 @@ The Dataset 01 notebook expects the dataset file:
 Dataset_01.csv
 ```
 
-Download the Dataset 01 [source dataset from the original provider](https://www.kaggle.com/datasets/larangetiwari/synthetic-card-transactions-for-fraud-detection/discussion?sort=recent-comments) and place the required CSV file in the local working directory used by the notebook.
+Download the [Dataset 01](https://www.kaggle.com/datasets/larangetiwari/synthetic-card-transactions-for-fraud-detection/discussion?sort=recent-comments) and place the required CSV file in the local working directory used by the notebook.
 
 The notebook currently loads the file using:
 
@@ -27,7 +27,7 @@ Dataset 02 is the ULB European Credit Card Fraud benchmark.
 The dataset should be downloaded from its original source.
 
 **Original source:**
-[source dataset from the original provider.](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?utm_source=gemini)
+[Dataset 02](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?utm_source=gemini)
 
 ## Dataset 03
 
@@ -36,7 +36,7 @@ Dataset 03 is the Sparkov synthetic credit card transaction dataset.
 The dataset should be downloaded from its original source.
 
 **Original source:**
-[source dataset from the original provider.](https://www.kaggle.com/datasets/kartik2112/fraud-detection/code)
+[Dataset 03](https://www.kaggle.com/datasets/kartik2112/fraud-detection/code)
 
 ## Local Data Setup
 
