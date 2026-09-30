@@ -1,6 +1,6 @@
 # Temporal Validation and Cyclic Time Features in Credit Card Fraud Detection
 
-### A Cross-Dataset Study of Model Performance Under Distribution Shift
+### A Cross-Dataset Study of Model Robustness Under Distribution Shift
 
 This project investigates how validation strategy and cyclic temporal features affect machine learning performance in credit card fraud detection.
 
